@@ -28,7 +28,7 @@
 
 ## vsCode 세팅하기
 
-- `Ctrl + Shift + `` 터미널 -> 기본프로필 선택 -> Git bash
+- Ctrl + Shift + ` 터미널 -> 기본프로필 선택 -> Git bash
   ![alt text](image.png)
   ![alt text](image-4.png)
 
