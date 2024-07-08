@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dash.css" />
+    <title>우리상사 ERP</title>
+    <style>
+      form {
+        display: flex;
+        flex: 1;
+        border: 1px solid blue;
+        margin: 5px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+      }
+      fieldset {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid green;
+        flex-direction: column;
+        padding: 2rem;
+        width: 60%;
+      }
+      form label {
+        font-weight: bold;
+        color: blue;
+        text-align: right;
+        padding: 8px;
+        flex: 1;
+      }
+      form input {
+        flex: 1;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid black;
+        padding: 8px;
+        margin-left: 10px;
+        width: 70%;
+      }
+
+      form input:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+      }
+
+      form input:focus {
+        border: 3px solid red;
+      }
+      form div {
+        width: 90%;
+        margin: 5px auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+
+      form button {
+        margin: 10px;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+      }
+
+      form button:nth-of-type(1) {
+        background-color: blue;
+      }
+
+      form button:nth-of-type(1):hover {
+        cursor: pointer;
+        background-color: greenyellow;
+        color: black;
+      }
+      form button:nth-of-type(2) {
+        background-color: green;
+      }
+
+      form button:nth-of-type(2):hover {
+        cursor: pointer;
+        background-color: red;
+      }
+      form button:nth-of-type(3) {
+        background-color: black;
+      }
+
+      form button:nth-of-type(3):hover {
+        cursor: pointer;
+        background-color: rgb(255, 241, 117);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>우리상사 ERP 시스템 2024</h1>
+      <p>우리상사 ERP - 거래처관리</p>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">주문관리</a>
+      <a href="#">결제관리</a>
+      <a href="#">거래처관리</a>
+      <a href="#">상품관리</a>
+      <a href="#">로그인</a>
+      <a href="#">회원가입</a>
+    </nav>
+    <form>
+      <fieldset>
+        <div>
+          <label for=""
+            >거래처코드<input type="text" placeholder="거래처코드를 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >거래처명<input type="text" placeholder="거래처명을 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >대표전화<input type="text" placeholder="대표전화를 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >대표자명<input type="text" placeholder="대표자명을 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >주소<input type="text" placeholder="주소를 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >담당자<input type="text" placeholder="담당자를 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <label for=""
+            >담당연락처<input type="text" placeholder="담당연락처를 입력하세요"
+          /></label>
+        </div>
+        <div>
+          <button type="button">저장</button>
+          <button type="button">다시작성</button>
+          <button type="button">리스트로</button>
+        </div>
+      </fieldset>
+    </form>
+    <footer><address>CopyRight &copy; jinh0318a@naver.com</address></footer>
+  </body>
+</html>
