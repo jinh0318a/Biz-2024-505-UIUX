@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        height: 100vh;
+      }
+      header {
+        background-color: skyblue;
+        color: white;
+        text-align: center;
+        padding: 1.5rem;
+      }
+      body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-direction: row;
+      }
+      nav {
+        background-color: black;
+        color: white;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav li {
+        padding: 1rem;
+      }
+      nav li:hover {
+        cursor: pointer;
+        background-color: #999;
+      }
+      nav li:nth-of-type(4) {
+        margin-left: auto;
+      }
+
+      nav li:nth-of-type(6) {
+        margin-left: auto;
+      }
+
+      div {
+        border: 2px solid blueviolet;
+        padding: 1rem;
+        width: 30%;
+        height: 98%;
+      }
+      section div {
+        flex: 1;
+        margin: 3px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #777;
+        color: white;
+      }
+      p {
+        color: blue;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>우리상사 ERP 2023</h1>
+      우리상사 ERP DashBoard
+    </header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>주문관리</li>
+        <li>결제관리</li>
+        <li>거래처관리</li>
+        <li>상품관리</li>
+        <li>로그인</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
+    <section>
+      <div><p>금일결제 예정</p></div>
+      <div><p>매출현황</p></div>
+      <div><p>현금입출 현황</p></div>
+    </section>
+    <footer><address>CopyRight &copy; jinh0318@naver.com</address></footer>
+  </body>
+</html>
