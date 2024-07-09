@@ -8,35 +8,35 @@
 
 ## vsCode 플러그인 설치하기
 
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](./images/image-1.png)
+![alt text](./images/image-2.png)
 
 - 검색 창에 `Korea` 입력 : `Korea Lan. Pack` 설치
-  ![alt text](image-3.png)
+  ![alt text](./images/image-3.png)
 
 - 검색 창에 `prettier` 입력 : `Prettier - Code formatter` 설치
-  ![alt text](image-5.png)
+  ![alt text](./images/image-5.png)
 
 - 검색 창에 `ESLint` 입력 : `ESLint` 설치
-  ![alt text](image-8.png)
+  ![alt text](./images/image-8.png)
 
 - 검색 창에 `Icon` 입력 : `Material Icon Theme` 설치
-  ![alt text](image-9.png)
+  ![alt text](./images/image-9.png)
 
 - 검색 창에 `Live` 입력 : `Live Server` 설치
-  ![alt text](image-10.png)
+  ![alt text](./images/image-10.png)
 
 ## vsCode 세팅하기
 
 - Ctrl + Shift + ` 터미널 -> 기본프로필 선택 -> Git bash
-  ![alt text](image.png)
-  ![alt text](image-4.png)
+  ![alt text](./images/image.png)
+  ![alt text](./images/image-4.png)
 
 - `Ctrl + ,` 를 눌러 세팅실행하기
 - Editor, Font Family : D2Coding 으로 변경하기
 
 - 설정에서 formatter 검색하여 `Prettier - Code formatter`로 Default formatter 변경
-  ![alt text](image-6.png)
+  ![alt text](./images/image-6.png)
 
 - save 검색하여 `format on Save` 체크하기
-  ![alt text](image-7.png)
+  ![alt text](./images/image-7.png)
