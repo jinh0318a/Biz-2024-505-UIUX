@@ -51,3 +51,15 @@ footer {
   background-color: #aaa;
   text-align: center;
 }
+
+section.detail {
+  width: 90%;
+  margin: 10px auto;
+  article {
+    width: 100%;
+
+    ul {
+      list-style: none;
+    }
+  }
+}
