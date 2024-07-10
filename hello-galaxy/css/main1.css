@@ -73,3 +73,9 @@ section.main article {
     opacity: 1;
   }
 }
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
